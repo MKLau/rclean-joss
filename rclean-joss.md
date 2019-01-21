@@ -22,7 +22,7 @@ affiliations:
  - name: Department of Computer Science and Engineering, Harvard University
    index: 3
 date: 21 January 2019
-bibliography: rclean-joss.bib
+bibliography: rclean.bib
 ---
 
 <!-- JOSS welcomes submissions from broadly diverse research areas. For -->
@@ -137,14 +137,16 @@ The growth of open-source statistical software programming has been
 explosive in the last decade. In particular, the statistical
 programming language ``R`` has grown exponentially to become one of
 the top ten programming languages in use today. However, recently
-concerns have arisen over the reproducibility of science
-[@Stodden2018] and the potential contribution made by the complexity
-and fragility of analytical software
-[@Pasquier2017 @Trisovic2018]. Because of this, tools that can lower
-the time and energy required to re-factor and streamline analytical
-scripts could have significant impact on scientific reproducibility
-across all of science. Toward this goal, we have created ``Rclean`` to
-aid in the rapid reduction of code to focus on results that are
+concerns have arisen over the reproducibility of scientific research
+[@Peng2011 @Baker2016 @Stodden2018] and the potential contribution
+made by the complexity and fragility of analytical software
+[@Pasquier2017 @Chen2018]. There is now a recognition of the need for
+well documented, transparent code and that just making code open is
+not enough [@Chen2018]. Because of this, tools that can lower the time
+and energy required to re-factor and streamline analytical scripts
+could have significant impact on scientific reproducibility across all
+of science [@Visser2015]. Toward this goal, we have created ``Rclean``
+to aid in the rapid reduction of code to focus on results that are
 specifically relevant to a research product, such as a blog, academic
 talk or research article.
 
@@ -153,9 +155,10 @@ scientists conducting analyses in the R programing language. Using
 graph analytic algorithms, ``Rclean`` isolates the code necessary to
 produce a chosen result (e.g. an object stored in memory or a table or
 figure that was writtin to disk). This process relies on the
-generation of data provenance, which is a formal representation of the
-execution of a computational process [@W3C], in order to rigorously
-determine the unique computaional pathway from inputs to the chosen
+generation of data provenance [@Muniswamy-Reddy2009], which is a
+formal representation of the execution of a computational process
+(https://www.w3.org/TR/prov-dm/), in order to rigorously determine the
+unique computaional pathway from inputs to the chosen
 results. However, as the intended user is a researcher conducting
 analyses, the process is abstracted and only the minimum information
 is required and presented to the user to streamline the process of
@@ -171,11 +174,10 @@ Network (CRAN) [@Lau2018]. The package is open-source and welcomes
 contributions who are working in this area. For example, new
 provenance capture methods could be easily implemented into the
 existing framwork, and there is tremendous potential for the use of
-code cleaning in the creation of more robust copsules
-[@Pasquier @CodeOcean @Gigantum @CoRE2 @DataVerse]. Interested
-contributors can connect to the project at
+code cleaning in the creation of more robust capsules
+[@Pasquier2018]. Interested contributors can connect to the project at
 https://github.com/provtools/Rclean. The project is also tagged and
-curated by Zenodo (DOI: 10.5281/zenodo.1208640).
+curated at Zenodo (DOI: 10.5281/zenodo.1208640).
 
 
 # Citations
@@ -192,69 +194,3 @@ Oh, and support from Kathryn Johnston during the genesis of this project.
 
 # References
 
-<!-- Example paper.bib file: -->
-
-<!-- @article{Pearson:2017, -->
-<!--   	Adsnote = {Provided by the SAO/NASA Astrophysics Data System}, -->
-<!--   	Adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170304627P}, -->
-<!--   	Archiveprefix = {arXiv}, -->
-<!--   	Author = {{Pearson}, S. and {Price-Whelan}, A.~M. and {Johnston}, K.~V.}, -->
-<!--   	Eprint = {1703.04627}, -->
-<!--   	Journal = {ArXiv e-prints}, -->
-<!--   	Keywords = {Astrophysics - Astrophysics of Galaxies}, -->
-<!--   	Month = mar, -->
-<!--   	Title = {{Gaps in Globular Cluster Streams: Pal 5 and the Galactic Bar}}, -->
-<!--   	Year = 2017 -->
-<!-- } -->
-
-<!-- @book{Binney:2008, -->
-<!--   	Adsnote = {Provided by the SAO/NASA Astrophysics Data System}, -->
-<!--   	Adsurl = {http://adsabs.harvard.edu/abs/2008gady.book.....B}, -->
-<!--   	Author = {{Binney}, J. and {Tremaine}, S.}, -->
-<!--   	Booktitle = {Galactic Dynamics: Second Edition, by James Binney and Scott Tremaine.~ISBN 978-0-691-13026-2 (HB).~Published by Princeton University Press, Princeton, NJ USA, 2008.}, -->
-<!--   	Publisher = {Princeton University Press}, -->
-<!--   	Title = {{Galactic Dynamics: Second Edition}}, -->
-<!--   	Year = 2008 -->
-<!-- } -->
-
-<!-- @article{zenodo, -->
-<!--   	Abstractnote = {Gala is a Python package for Galactic astronomy and gravitational dynamics. The bulk of the package centers around implementations of gravitational potentials, numerical integration, and nonlinear dynamics.}, -->
-<!--   	Author = {Adrian Price-Whelan and Brigitta Sipocz and Syrtis Major and Semyeong Oh}, -->
-<!--   	Date-Modified = {2017-08-13 14:14:18 +0000}, -->
-<!--   	Doi = {10.5281/zenodo.833339}, -->
-<!--   	Month = {Jul}, -->
-<!--   	Publisher = {Zenodo}, -->
-<!--   	Title = {adrn/gala: v0.2.1}, -->
-<!--   	Year = {2017}, -->
-<!--   	Bdsk-Url-1 = {http://dx.doi.org/10.5281/zenodo.833339} -->
-<!-- } -->
-
-<!-- @article{gaia, -->
-<!--     author = {{Gaia Collaboration}}, -->
-<!--     title = "{The Gaia mission}", -->
-<!--     journal = {\aap}, -->
-<!--     archivePrefix = "arXiv", -->
-<!--     eprint = {1609.04153}, -->
-<!--     primaryClass = "astro-ph.IM", -->
-<!--     keywords = {space vehicles: instruments, Galaxy: structure, astrometry, parallaxes, proper motions, telescopes}, -->
-<!--     year = 2016, -->
-<!--     month = nov, -->
-<!--     volume = 595, -->
-<!--     doi = {10.1051/0004-6361/201629272}, -->
-<!--     adsurl = {http://adsabs.harvard.edu/abs/2016A%26A...595A...1G}, -->
-<!-- } -->
-
-<!-- @article{astropy, -->
-<!--     author = {{Astropy Collaboration}}, -->
-<!--     title = "{Astropy: A community Python package for astronomy}", -->
-<!--     journal = {\aap}, -->
-<!--     archivePrefix = "arXiv", -->
-<!--     eprint = {1307.6212}, -->
-<!--     primaryClass = "astro-ph.IM", -->
-<!--     keywords = {methods: data analysis, methods: miscellaneous, virtual observatory tools}, -->
-<!--     year = 2013, -->
-<!--     month = oct, -->
-<!--     volume = 558, -->
-<!--     doi = {10.1051/0004-6361/201322068}, -->
-<!--     adsurl = {http://adsabs.harvard.edu/abs/2013A%26A...558A..33A} -->
-<!-- } -->
