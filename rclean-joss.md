@@ -138,20 +138,21 @@ explosive in the last decade. In particular, the statistical
 programming language ``R`` has grown exponentially to become one of
 the top ten programming languages in use today. However, recently
 concerns have arisen over the reproducibility of scientific research
-[@Peng2011 @Baker2016 @Stodden2018] and the potential issues
-related to the complexity and fragility of analytical software
-[@Pasquier2017 @Chen2018]. There is now a recognition of the need for
-well documented, transparent code and that simply making the code open is
-not enough [@Chen2018]. Because of this, tools that can lower the time
-and energy required to re-factor and streamline analytical scripts
-could have a significant impact on scientific reproducibility across all
-disciplines [@Visser2015]. Toward this goal, we have created ``Rclean``
-to aid in the automated code reduction to focus on results that are
+[@Peng2011 @Baker2016 @Stodden2018] and the potential issues stemming
+from the complexity and fragility of analytical software
+[@Pasquier2017 @Chen2018]. There is now a recognition that simply
+making the code open is not enough and that there is a need for
+improvements to documentation and transparency [@Chen2018]. From this
+perspective, tools that can lower the time and energy required to
+re-factor and streamline analytical scripts could have a significant
+impact on scientific reproducibility across all disciplines
+[@Visser2015]. Supporting this objective, we have created ``Rclean``
+to aid in automated code reduction to focus on results that are
 specifically relevant to a research product, such as a blog, academic
 talk or research article.
 
 The ``Rclean`` package provides a simple, easy to use tool for
-scientists conducting analyses in the R programing language. Using
+scientists conducting analyses in the R programming language. Using
 graph analytic algorithms, ``Rclean`` isolates the code necessary to
 produce a given result (e.g. an object stored in memory or a table or
 figure written to disk). This process relies on the
@@ -169,14 +170,14 @@ As statistical programming becomes more common across the sciences,
 tools that make the production of accessible code will be an important
 aid for improving scientific reproducibility. ``Rclean`` has been
 designed to take advantage of recent advances in data provenance
-capture techniques to create an easy to use tool for this purpose. New
+capture techniques to create a minimalistic tool for this purpose. New
 users can easily install the package from the Comprehensive R Archive
 Network (CRAN) [@Lau2018]. The package is open-source and welcomes
-contributions. For example, the existing framework could be extended 
-to support new provenance capture methods, and there is tremendous 
-potential for the use of code cleaning in the creation of more robust 
-capsules [@Pasquier2018]. Interested contributors can connect to the 
-project at https://github.com/provtools/Rclean. The project is also 
+contributions. For example, the existing framework could be extended
+to support new provenance capture methods, and there is tremendous
+potential for the use of code cleaning in the creation of more robust
+capsules [@Pasquier2018]. Interested contributors can connect to the
+project at https://github.com/provtools/Rclean. The project is also
 tagged and curated at Zenodo (DOI: 10.5281/zenodo.1208640).
 
 
@@ -186,7 +187,7 @@ tagged and curated at Zenodo (DOI: 10.5281/zenodo.1208640).
 <!-- # Figures -->
 <!-- Figures can be included like this: ![Example figure.](figure.png) -->
 
-# Acknowledgements
+# Acknowledgments
 
 We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
 Oh, and support from Kathryn Johnston during the genesis of this project.
