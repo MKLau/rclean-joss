@@ -11,7 +11,7 @@ authors:
   - name: Matthew K. Lau
     orcid: 0000-0003-3758-2406
     affiliation: 1
-  - name: Thomas F.J.M. Pasquier
+  - name: Thomas F. J.-M. Pasquier
     orcid: 0000-0000-0000-0000
     affiliation: "2, 3" # (Multiple affiliations must be quoted)
 affiliations:
