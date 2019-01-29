@@ -19,7 +19,7 @@ affiliations:
    index: 1
  - name: Department of Computer Science, University of Bristol 
    index: 2
- - name: Department of Computer Science and Engineering, Harvard University
+ - name: School of Engineering and Applied Science, Harvard University
    index: 3
 date: 21 January 2019
 bibliography: rclean.bib
