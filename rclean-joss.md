@@ -12,7 +12,7 @@ authors:
     orcid: 0000-0003-3758-2406
     affiliation: 1
   - name: Thomas F. J.-M. Pasquier
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0001-6876-1306
     affiliation: "2, 3" # (Multiple affiliations must be quoted)
 affiliations:
  - name: Harvard Forest, Harvard University 
