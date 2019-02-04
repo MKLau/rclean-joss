@@ -161,7 +161,7 @@ scientists conducting analyses in the R programming language. Using
 graph analytic algorithms, ``Rclean`` isolates the code necessary to
 produce a specified result (e.g., an object stored in memory or a table or
 figure written to disk). This process relies on the
-generation of data provenance [@Muniswamy-Reddy2009], which is a
+generation of data provenance [@Carata2014], which is a
 formal representation of the execution of a computational process
 (https://www.w3.org/TR/prov-dm/), to rigorously determine the
 the unique computational pathway from inputs to
