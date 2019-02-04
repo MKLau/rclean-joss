@@ -14,6 +14,9 @@ authors:
   - name: Thomas F. J.-M. Pasquier
     orcid: 0000-0001-6876-1306
     affiliation: "2, 3" # (Multiple affiliations must be quoted)
+  - name: Margo Seltzer
+    orcid: 0000-0002-2165-4658
+    affiliation: "4"
 affiliations:
  - name: Harvard Forest, Harvard University 
    index: 1
@@ -21,7 +24,9 @@ affiliations:
    index: 2
  - name: School of Engineering and Applied Science, Harvard University
    index: 3
-date: 21 January 2019
+ - name: University of British Columbia
+   index: 4
+date: 2 February 2019
 bibliography: rclean.bib
 ---
 
@@ -136,30 +141,30 @@ bibliography: rclean.bib
 The growth of open-source statistical software programming has been
 explosive in the last decade. In particular, the statistical
 programming language ``R`` has grown exponentially to become one of
-the top ten programming languages in use today. However, recently
+the top ten programming languages in use today. Recently,
 concerns have arisen over the reproducibility of scientific research
 [@Peng2011 @Baker2016 @Stodden2018] and the potential issues stemming
 from the complexity and fragility of analytical software
 [@Pasquier2017 @Chen2018]. There is now a recognition that simply
-making the code open is not enough and that there is a need for
+making the code open is not enough, and that there is a need for
 improvements to documentation and transparency [@Chen2018]. From this
 perspective, tools that can lower the time and energy required to
 re-factor and streamline analytical scripts could have a significant
 impact on scientific reproducibility across all disciplines
 [@Visser2015]. Supporting this objective, we have created ``Rclean``
-to aid in automated code reduction to focus on results that are
+which automatically reduces a script to the parts that are
 specifically relevant to a research product, such as a blog, academic
 talk or research article.
 
 The ``Rclean`` package provides a simple, easy to use tool for
 scientists conducting analyses in the R programming language. Using
 graph analytic algorithms, ``Rclean`` isolates the code necessary to
-produce a given result (e.g. an object stored in memory or a table or
+produce a specified result (e.g., an object stored in memory or a table or
 figure written to disk). This process relies on the
 generation of data provenance [@Muniswamy-Reddy2009], which is a
 formal representation of the execution of a computational process
 (https://www.w3.org/TR/prov-dm/), to rigorously determine the
-the unique computational pathway from inputs to the chosen
+the unique computational pathway from inputs to
 results. However, as the intended user is a researcher conducting
 analyses, the process is abstracted and only the minimum information
 is required and presented to the user to streamline the process of
