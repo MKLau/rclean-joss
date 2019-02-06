@@ -17,6 +17,9 @@ authors:
   - name: Margo Seltzer
     orcid: 0000-0002-2165-4658
     affiliation: "4"
+  - name: Elizabeth Fong
+    orcid: 0000-0002-7851-4912
+    affiliation: "5"
 affiliations:
  - name: Harvard Forest, Harvard University 
    index: 1
@@ -26,6 +29,8 @@ affiliations:
    index: 3
  - name: University of British Columbia
    index: 4
+ - name: Mount Holyoke College
+   index: 5
 date: 2 February 2019
 bibliography: rclean.bib
 ---
