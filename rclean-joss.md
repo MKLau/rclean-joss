@@ -14,12 +14,13 @@ authors:
   - name: Thomas F. J.-M. Pasquier
     orcid: 0000-0001-6876-1306
     affiliation: "2, 3" # (Multiple affiliations must be quoted)
-  - name: Margo Seltzer
-    orcid: 0000-0002-2165-4658
-    affiliation: "4"
   - name: Elizabeth Fong
     orcid: 0000-0002-7851-4912
-    affiliation: "5"
+    affiliation: "4"
+  - name: Margo Seltzer
+    orcid: 0000-0002-2165-4658
+    affiliation: "3, 5"
+
 affiliations:
  - name: Harvard Forest, Harvard University 
    index: 1
@@ -27,119 +28,14 @@ affiliations:
    index: 2
  - name: School of Engineering and Applied Science, Harvard University
    index: 3
- - name: University of British Columbia
+ - name: Department of Computer Sciences, Mount Holyoke College
    index: 4
- - name: Mount Holyoke College
+ - name: Department of Computer Science, University of British Columbia
    index: 5
 date: 2 February 2019
 bibliography: rclean.bib
 ---
 
-<!-- JOSS welcomes submissions from broadly diverse research areas. For -->
-<!-- this reason, we request that authors include in the paper some -->
-<!-- sentences that would explain the software functionality and domain of -->
-<!-- use to a non-specialist reader. Your submission should probably be -->
-<!-- somewhere between 250-1000 words. -->
-
-<!-- In addition, your paper should include: -->
-
-<!-- - A list of the authors of the software and their affiliations -->
-<!-- - A summary describing the high-level functionality and purpose of the software for a diverse, non-specialist audience -->
-<!-- - A clear statement of need that illustrates the purpose of the software -->
-<!-- - A list of key references including a link to the software archive -->
-<!-- - Mentions (if applicable) of any ongoing research projects using the software or recent scholarly publications enabled by it -->
-
-<!-- As this short list shows, JOSS papers are only permitted to contain a -->
-<!-- limited set of metadata (see header below), Statement of Need, -->
-<!-- Summary, and Reference sections. You can see an example accepted paper -->
-<!-- here. Given this paper format, a "full length" paper is not permitted, -->
-<!-- e.g., software documentation such as API (Application Programming -->
-<!-- Interface) functionality should not be in the paper and instead should -->
-<!-- be outlined in the software documentation. -->
-
-<!-- *Important*: You paper will be reviewed by one or more reviewers in -->
-<!-- a public GitHub issue. Take a look at the `review criteria -->
-<!-- <review_criteria.html>`_ to better understand how your submission will -->
-<!-- be reviewed. -->
-
-
-<!-- Submitting your paper -->
-
-<!-- Submission then is as simple as: -->
-<!-- Filling in the short submission form -->
-<!-- Waiting for reviewers to be assigned over in the JOSS reviews -->
-<!-- repository: https://github.com/openjournals/joss-reviews -->
-
-<!-- Submission requirements -->
-
-<!-- - The software should be open source as per the OSI definition -->
-<!-- - The software should have an obvious research application -->
-<!-- - You should be a major contributor to the software you are submitting -->
-<!-- - The software should be a significant contribution to the available -->
-<!--   open source software that either enables some new research -->
-<!--   challenges to be addressed or makes addressing research challenges -->
-<!--   significantly better (e.g., faster, easier, simpler) -->
-<!-- - The software should be feature complete (no half-baked solutions) -->
-<!--   and designed for maintainable extension (not one-off -->
-<!--   modifications). Minor ‘utility’ packages, including ‘thin’ API -->
-<!--   clients, are not acceptable. -->
-
-<!-- In addition, the software associated with your submission must: -->
-
-<!-- - Be stored in a repository that can be cloned without registration -->
-<!-- - Be stored in a repository that is browsable online without -->
-<!--   registration -->
-<!-- - Have an issue tracker that is readable without registration -->
-<!-- - Permit individuals to create issues/file tickets against your -->
-<!--   repository -->
-
-<!-- JOSS publishes articles about research software. This definition -->
-<!-- includes software that: solves complex modeling problems in a -->
-<!-- scientific context (physics, mathematics, biology, medicine, social -->
-<!-- science, neuroscience, engineering); supports the functioning of -->
-<!-- research instruments or the execution of research experiments; -->
-<!-- extracts knowledge from large data sets; offers a mathematical -->
-<!-- library, or similar. -->
-
-<!-- Authorship -->
-
-<!-- Purely financial (such as being named on an award) and organizational -->
-<!-- (such as general supervision of a research group) contributions are -->
-<!-- not considered sufficient for co-authorship of JOSS submissions, but -->
-<!-- active project direction and other forms of non-code contributions -->
-<!-- are. The authors themselves assume responsibility for deciding who -->
-<!-- should be credited with co-authorship, and co-authors must always -->
-<!-- agree to be listed. In addition, co-authors agree to be accountable -->
-<!-- for all aspects of the work. -->
-
-<!-- Submissions using proprietary languages/dev environments -->
-
-<!-- We strongly prefer software that doesn't rely upon proprietary (paid -->
-<!-- for) development environments/programming languages. However, provided -->
-<!-- your submission meets our submission requirements (including having a -->
-<!-- valid open source license) then we will consider your submission for -->
-<!-- review. Should your submission be accepted for review, we may ask you, -->
-<!-- the submitting author, to help us find reviewers who already have the -->
-<!-- required development environment installed. -->
-
-<!-- The review process -->
-
-<!-- After submission: -->
-
-<!-- - One or more JOSS reviewers are assigned and the review is carried -->
-<!--   out in the reviews repository -->
-<!-- - Authors respond to reviewer-raised issues (if any are raised) on the -->
-<!--   submitted repository's issue tracker. -->
-<!-- - Reviewer contributions, like any other contributions, should be -->
-<!--   acknowledged in the repository -->
-<!-- - Upon successful completion of the review, deposit a copy of your -->
-<!--   (updated) repository with a data-archiving service such as Zenodo or -->
-<!--   figshare, issue a DOI for the archive, and update the review issue -->
-<!--   thread with your DOI -->
-<!-- - After assignment of a DOI, your paper metadata is deposited in -->
-<!-- CrossRef and listed on the JOSS website And that's it -->
-<!-- - If you want to learn more about what the review process looks like -->
-<!--   in detail, take a look at the reviewer guidelines. -->
 
 # Summary
 
@@ -194,14 +90,10 @@ tagged and curated at Zenodo (DOI: 10.5281/zenodo.1208640).
 # Citations
 
 
-<!-- # Figures -->
-<!-- Figures can be included like this: ![Example figure.](figure.png) -->
-
 # Acknowledgments
 
-We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
-
+This work was improved by discussions with ecologists at Harvard
+Forest.
 
 # References
 
