@@ -92,7 +92,8 @@ tagged and curated at Zenodo (DOI: 10.5281/zenodo.1208640).
 # Acknowledgments
 
 This work was improved by discussions with ecologists at Harvard
-Forest.
+Forest. Much of the work was funded by US National Science Foundation
+grant SSI-1450277 for applications of End-to-End Data Provenance.
 
 # References
 
