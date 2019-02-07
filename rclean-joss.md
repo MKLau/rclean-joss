@@ -3,7 +3,6 @@ title: 'Rclean: A Tool for Writing Cleaner, More Transparent Code'
 tags:
   - R
   - reproducibility
-  - open-science
   - transparency
   - code cleaning
   - data provenance
@@ -13,13 +12,13 @@ authors:
     affiliation: 1
   - name: Thomas F. J.-M. Pasquier
     orcid: 0000-0001-6876-1306
-    affiliation: "2, 3" # (Multiple affiliations must be quoted)
+    affiliation: "2, 3" 
   - name: Elizabeth Fong
     orcid: 0000-0002-7851-4912
     affiliation: "4"
   - name: Margo Seltzer
     orcid: 0000-0002-2165-4658
-    affiliation: "3, 5"
+    affiliation: "5"
 
 affiliations:
  - name: Harvard Forest, Harvard University 
